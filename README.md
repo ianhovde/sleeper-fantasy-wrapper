@@ -2,14 +2,14 @@
 A minimal package for interacting with the Sleeper Fantasy API
 
 ## installation
-`npm install sleeper-fantasy-api`
+`npm install sleeper-fantasy-wrapper`
 
 ## usage
 All available functions are in the functions folder. The endpoints there are organized to match the sleeper documentation.
 
 ### example usage of user function
 ```
-import { user } from 'sleeper-fantasy-api'
+import { user } from 'sleeper-fantasy-wrapper'
 
 const data = await user('<username or user_id>')
 ```
@@ -44,7 +44,7 @@ sample output:
 ```
 ### example usage of league function
 ```
-import { league } from 'sleeper-fantasy-api'
+import { league } from 'sleeper-fantasy-wrapper'
 
 const data = await leagues('<user_id>', '<sport>', 'year')
 ```
