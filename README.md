@@ -44,7 +44,7 @@ sample output:
 ```
 ### example usage of league function
 ```
-import { league } from 'sleeper-fantasy-wrapper'
+import { leagues } from 'sleeper-fantasy-wrapper'
 
 const data = await leagues('<user_id>', '<sport>', 'year')
 ```
